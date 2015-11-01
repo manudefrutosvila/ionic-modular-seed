@@ -1,0 +1,71 @@
+/* Modules/mixins */
+
+// generic transform
+@mixin transform($transforms) {
+   -moz-transform: $transforms;
+   -o-transform: $transforms;
+   -ms-transform: $transforms;
+   -webkit-transform: $transforms;
+   transform: $transforms;
+}
+
+// transition
+@mixin transition ($transition) {
+   -webkit-transition: $transition;
+   -moz-transition: $transition;
+   -o-transition: $transition;
+   transition: $transition;
+}
+
+@mixin hw_accelerate {
+   -webkit-transform: translateZ(0) translate3D(0,0,0);
+   -moz-transform: translateZ(0) translate3D(0,0,0);
+   -o-transform: translateZ(0) translate3D(0,0,0);
+   -ms-transform: translateZ(0) translate3D(0,0,0);
+   transform: translateZ(0) translate3D(0,0,0);
+}
+
+@mixin radial-gradient($from, $to) {
+	background: -moz-radial-gradient(center, circle cover, $from 0%, $to 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, $from), color-stop(100%, $to));
+	background: -webkit-radial-gradient(center, circle cover, $from 0%, $to 100%);
+	background: -o-radial-gradient(center, circle cover, $from 0%, $to 100%);
+	background: -ms-radial-gradient(center, circle cover, $from 0%, $to 100%);
+	background: radial-gradient(center, circle cover, $from 0%, $to 100%);
+	background-color: $from;
+}
+
+@mixin linear-gradient($from, $to) {
+    background: $from;
+    background: -moz-linear-gradient(top,  $from 0%, $to 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$from), color-stop(100%,$to));
+    background: -webkit-linear-gradient(top,  $from 0%,$to 100%);
+    background: -o-linear-gradient(top,  $from 0%,$to 100%);
+    background: -ms-linear-gradient(top,  $from 0%,$to 100%);
+    background: linear-gradient(to bottom,  $from 0%,$to 100%);
+}
+
+@mixin input-font($family,$size,$color,$transform) {
+    font-family: $family;
+    font-size: $size;
+    line-height: 18px;
+    color: $color;
+    text-transform: $transform;
+}
+
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+
+@mixin txt-shadow($size: 21px, $color: #fff, $shadow : 3px){
+    font-size: $size;
+    text-shadow: 0 0 $shadow rgba(0, 0, 0, 1);
+    font-weight: bold;
+    color: $color;
+}
+
+@mixin border-radius($radio) {
+    border-radius: $radio;
+    -webkit-border-radius: $radio;
+}

@@ -1,0 +1,44 @@
+/**
+ * Ionic Popups: www/vendor/ionic/scss/_popup.scss
+ * --------------------------------------------------
+ */
+
+.popup-head{
+    padding-bottom: 20px;
+}
+.popup-title {
+    font-family: $font-family-bbva-light;
+    font-size: 18px;
+}
+.popup-body {
+    padding: 5px 20px 20px 20px;
+    text-align: center;
+    font-family: $font-family-sans-serif-arial;
+    font-size: 14px;
+    color: black;
+    .card-simple {
+        border: 1px solid $colorGrey400;
+        border-radius: 3px;
+        background: transparent;
+        box-shadow: none;
+        .item {
+            background: transparent;
+            text-align: left;
+            padding: 10px;
+            font-family: $font-family-bbva-light;
+        }
+    }
+}
+.popup-buttons {
+    padding: 10px 10px 20px 10px;
+    button {
+        text-transform: uppercase;
+        &:first-child {
+            margin-right: 15px;
+        }
+    }
+}
+.button-only-one {
+    max-width: 150px;
+    margin: 0 auto !important;
+}

@@ -1,0 +1,17 @@
+//ionic ion-header-bar and ion-footer-bar
+
+.bar{
+    &.bar-transparent{
+        background-color: transparent;
+        border: none;
+        background-image: none;
+    }
+    &.bar-no-padding{
+        padding: 0;
+    }
+    &.bar-intro .button{
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 1.2em;
+    }
+}

@@ -1,0 +1,16 @@
+//ionic ionicons custom colors
+
+.icon{
+    &.icon-balanced {
+        color: $colorExperienceTeal500 !important;
+    }
+}
+
+//for icons in lists that can be activated
+.item.activated{
+    .icon {
+        &.icon-balanced {
+            color: $colorWhite !important;
+        }
+    }
+}

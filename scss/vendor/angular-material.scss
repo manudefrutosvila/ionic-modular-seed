@@ -1,0 +1,89 @@
+/*
+To customize the look and feel of Angular Material
+https://material.angularjs.org
+
+Angular Material does not use scss in their release.
+We will here overwrite the css classes in
+www/vendor/angular-material/angular-material.min.css
+*/
+
+
+.md-balanced{
+    background-color: $colorExperienceIndigo500 !important;
+}
+
+.md-primary{
+    background-color: $colorExperienceTeal500 !important;
+}
+
+md-content {
+    background-color: transparent;
+}
+
+.login{
+    .md-char-counter {
+        display: none;
+    }
+
+    md-input-container .md-input {
+        border-width: 0 0 2px;
+        border-color: $colorExperienceGrey250;
+        color: white;
+        &:focus {
+            border-color: white;
+        }
+    }
+
+    md-input-container:not(.md-input-has-value) input:not(:focus) {
+        color: $colorExperienceGrey220  !important;
+    }
+
+    md-input-container label,
+    md-input-container .md-placeholder {
+        color: white  !important;
+        text-transform: uppercase  !important;
+    }
+
+    md-input-container label {
+        font-family: $font-family-bbva-book;
+        font-size: 16px;
+    }
+
+    md-input-container:not(.md-input-invalid).md-input-focused label {
+        color: white !important;
+        text-transform: uppercase !important;
+    }
+
+    md-input-container.md-input-invalid.md-input-focused label {
+        color: white !important;
+        text-transform: uppercase !important;
+    }
+
+    md-input-container.md-input-focused label:not(.md-no-float),
+    md-input-container.md-input-has-value label:not(.md-no-float) {
+        -webkit-transform: translate3d(0,6px,0) scale(0.9);
+        transform: translate3d(0,6px,0) scale(0.9);
+    }
+
+    input:-webkit-autofill,
+    textarea:-webkit-autofill,
+    select:-webkit-autofill
+    {
+        background-color: transparent !important;
+        color: white !important;
+    }
+
+    md-input-container:not(.md-input-invalid).md-input-focused input
+     {
+        border-color: white !important;
+    }
+
+    md-input-container ng-messages,
+    md-input-container [ng-message],
+    md-input-container [data-ng-message],
+    md-input-container [x-ng-message]
+    {
+        color: $colorExperienceTeal100;
+    }
+
+}

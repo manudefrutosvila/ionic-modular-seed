@@ -1,0 +1,17 @@
+/**
+ * Ionic Items: www/vendor/ionic/scss/_items.scss
+ * --------------------------------------------------
+ */
+
+ .item-divider.item-divider-dark{
+     color: $dark;
+ }
+ 
+.item-note {
+    color: $colorExperienceGrey900 !important;
+
+    &.item-note-balanced {
+        color: $colorExperienceTeal500 !important;
+        font-weight: bold;
+    }
+}
