@@ -1,10 +1,7 @@
-/* ===========================
-   Tools/Helpers
-   =========================== */
+/* Tools/Helpers */
 
-/*
- * margins
- */
+/* ==========  margins  ========== */
+
 .mg-0 {
     margin: 0 !important;
 }
@@ -17,9 +14,9 @@
     margin-right: 5px !important;
 }
 
-/*
- * paddings
- */
+
+/* ==========  paddings  ========== */
+
 .pd-0 {
     padding: 0 !important;
 }
@@ -34,9 +31,7 @@
 }
 
 
-/*
- * text
- */
+/* ==========  text  ========== */
 
 .text-right {
     text-align: right !important;
@@ -51,9 +46,8 @@
 }
 
 
-/*
- * cursor
- */
+/* ==========  cursor  ========== */
+
 .cursor-pointer {
     cursor: pointer;
 }
@@ -63,9 +57,7 @@
 }
 
 
-/*
- * widths
- */
+/* ==========  widths  ========== */
 
 .w-5 {
     width: 5% !important;
@@ -76,13 +68,14 @@
 }
 
 
-/*
- * borders
- */
+/* ==========  borders  ========== */
 
 .border-none {
     border: 0 !important;
 }
+
+
+/* ==========  others  ========== */
 
 .uppercase {
     text-transform: uppercase;

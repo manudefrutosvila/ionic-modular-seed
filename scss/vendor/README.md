@@ -1,7 +1,8 @@
 The `app/scss/vendor/` directory
 ==========================================
 
-The third party libraries are imported here. 
+The third party libraries are imported here.
+It is the place to customize them by overriding its variables.
 
 There are two ways to do it:
 

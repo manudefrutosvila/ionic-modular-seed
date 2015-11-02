@@ -10,26 +10,6 @@ $energized:                       #ffc900 !default;
 $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
-*/
-$balanced: $colorExperienceTeal500;
-$assertive: $colorExperienceMagenta500 !default;
-$positive: $colorExperienceIndigo500;
-$calm: $colorExperienceCyan500;
-$stable: $colorExperienceGrey100;
-$dark: $colorExperienceGrey900;
-$bar-balanced-bg: rgba($colorExperienceGrey150, $bar-transparency) !default;
-$bar-balanced-text: $colorExperienceGrey900 !default;
-$bar-balanced-border: $colorExperienceGrey150 !default;
-$bar-balanced-active-bg: $colorExperienceGrey150 !default;
-$bar-balanced-active-border: $colorExperienceGrey150 !default;
-$button-light-active-border: #ccc !default;
-$item-default-active-bg: $balanced !default;
-$item-light-active-border: $button-light-active-border;
-$item-default-active-border: $item-light-active-border !default;
-
-$popup-border-radius: 6px;
-$popup-width: 270px;
-$popup-button-min-height: 50px;
 
 $button-balanced-bg:              $balanced !default;
 $button-balanced-text:            #fff !default;
@@ -42,6 +22,7 @@ $button-default-text:             $balanced !default;
 $button-default-border:           $balanced !default;
 $button-default-active-bg:        #fff !default;
 $button-default-active-border:    $balanced !default;
+*/
 
 
 // The path for our ionicons font files, relative to the built CSS in www/css

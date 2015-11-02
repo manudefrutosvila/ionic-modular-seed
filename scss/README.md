@@ -5,7 +5,7 @@ This folder contains the SASS files to be compiled during the build. Only app.sc
 
 It is followed the [SMACSS (Scalable and Modular Architecture for CSS)](http://smacss.com) style guide based on the [SMACSS + SCSS starter](https://github.com/jonathanpath/SASS-SMACSS).
 
-In the stylesheet development we trully recomend to follow the [Idiomatic CSS coding rules](https://github.com/necolas/idiomatic-css).
+In the stylesheet development we trully recomend to follow the [Idiomatic CSS coding rules](https://github.com/necolas/idiomatic-css) and/or the [BEM Methodology (Block, Element, Modifier)](https://en.bem.info/method/).
 
 ## Overview ##
 
@@ -23,11 +23,15 @@ app/
   |  |  |- base/
   |  |  |  |- <elements selector styles>
   |  |  |- layout/
-  |  |  |  |- <layout styles>
+  |  |  |  |- <common layout styles>
+  |  |  |- pages
+  |  |  |  |- <particular pages styles>
+  |  |  |- components
+  |  |  |  |- <particular components styles>
   |  |- variables/
   |  |  |- <site configuration to use it on the sass files>
   |  |- vendor/
-  |  |  |- <third party sass sources>
+  |  |  |- <third party sass sources and customizations>
   |  |- app.scss
 ```
 
@@ -39,5 +43,7 @@ What follows is a brief description of each entry, but some key directories cont
 - `partials/` - Where the CSS is constructed. Inside it is also splited in subfolders like:
   + `base/` - All the rules applied to an element using an element selector, a descendent selector or a child selector, along with any pseudo-classes. It doesn’t include any class or ID selectors. It is defining the default styling for how that element should look in all occurrences on the page.
   + `layout/` - The layout styles of the site. Things like header, footer, main or the navigation.
+  + `pages/` - The particular pages styles of the site whether your development have some views with particular styling.
+  + `components/` - Each component should have its own style. Here you should import them.
 - `variables/` - The site settings, to allow fast changes in the whole site by only changing this. Here are defined things like the colors or fonts variables used in the other Sass files.
-- `vendor/` - Third party styles needed by the app.
+- `vendor/` - Third party styles needed by the app. Here also you can customize them by overriding their variables.
