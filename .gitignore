@@ -2,8 +2,30 @@
 # http://git-scm.com/docs/gitignore
 
 node_modules/
+bower_components/
 platforms/
 plugins/
 .settings/
 .DS_Store
 www/css/*.css
+*.swp
+*.swm
+www/vendor/
+*.swo
+*.swn
+.tern-project
+inv/
+# ctags info to to navigate projects quickly by jumping to function definitions from anywhere in code.
+tags
+.tags
+.tags1
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+*.iml
+
+## Directory-based project format:
+.idea/
+
+## i18n js files && generate at >> gulp translations
+
+www/src/i18n/
