@@ -1,5 +1,11 @@
 {
   "name": "ionic-modular-seed",
+  "version": "1.0.0",
+  "description": "Ionic modular seed",
+  "authors": [
+    "Sergi Collado <sergio.collado@sopra.com>",
+    "Manu de Frutos Vila <manuel.defrutosvila@sopra.com>"
+  ],
   "private": "true",
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#1.0.0"
