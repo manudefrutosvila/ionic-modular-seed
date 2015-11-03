@@ -1,0 +1,14 @@
+/* Partials/Base/Base */
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: $link-hover-color;
+    text-decoration: none;
+}
+p::first-letter {
+    text-transform: uppercase;
+}

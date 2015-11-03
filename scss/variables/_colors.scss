@@ -1,0 +1,45 @@
+/* Variables/Colors */
+
+////////  COLORS BASE  ////////
+
+$red-google: #dd4b39;
+$red-google-dark: #be3e2e;
+
+$blue-facebook: #4c69ba;
+$blue-facebook-dark: #3b55a0;
+$blue-facebook-light: #5b7bd5;
+$blue-twitter: #55acee;
+$blue-twitter-dark: #3b89c3;
+
+$grey-light: #787878;
+
+
+///////////////////////////////
+////  VARIABLES TO COLORS  ////
+///////////////////////////////
+
+//customize the look and feel of Ionic
+$item-divider-color:                $colorGrey600;
+$item-divider-bg:                   $colorGrey100;
+
+//app colors
+$color-social-google-bg:            $red-google;
+$color-social-google-text:          $colorWhite;
+$color-social-google-border:        $red-google-dark;
+$color-social-google-active-bg:     $red-google-dark;
+$color-social-google-active-border: $red-google-dark;
+
+$color-social-facebook-bg:            $blue-facebook;
+$color-social-facebook-text:          $colorWhite;
+$color-social-facebook-border:        $blue-facebook-dark;
+$color-social-facebook-active-bg:     $blue-facebook-dark;
+$color-social-facebook-active-border: $blue-facebook-dark;
+
+$color-social-twitter-bg:            $blue-twitter;
+$color-social-twitter-text:          $colorWhite;
+$color-social-twitter-border:        $blue-twitter-dark;
+$color-social-twitter-active-bg:     $blue-twitter-dark;
+$color-social-twitter-active-border: $blue-twitter-dark;
+
+$color-footer-bg:                   $colorWhite;
+$color-footer-text:                 $colorGrey500;

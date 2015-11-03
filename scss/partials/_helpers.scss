@@ -1,0 +1,86 @@
+/* Tools/Helpers */
+
+/* ==========  margins  ========== */
+
+.mg-0 {
+    margin: 0 !important;
+}
+
+.mgb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mgr-5 {
+    margin-right: 5px !important;
+}
+
+
+/* ==========  paddings  ========== */
+
+.pd-0 {
+    padding: 0 !important;
+}
+
+.pdb-0 {
+    padding-bottom: 0 !important;
+}
+
+.pdtb-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+/* ==========  text  ========== */
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+
+/* ==========  cursor  ========== */
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
+
+
+/* ==========  widths  ========== */
+
+.w-5 {
+    width: 5% !important;
+}
+
+.w-10 {
+    width: 10% !important;
+}
+
+
+/* ==========  borders  ========== */
+
+.border-none {
+    border: 0 !important;
+}
+
+
+/* ==========  others  ========== */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.hidden {
+    display:none;
+}
