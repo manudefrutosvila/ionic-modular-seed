@@ -2,11 +2,10 @@
     'use strict';
 
     angular
-        .module('app.dashboard')
-        .factory('dashboardService', dashboardService);
+        .module('app.intro')
+        .factory('introService', introService);
 
-
-    function dashboardService($q, $timeout) {
+    function introService($q, $timeout) {
 
         var service = {
             all : all
