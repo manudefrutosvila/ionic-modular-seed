@@ -5,7 +5,7 @@
         .module('app.login')
         .controller('LoginCtrl', LoginCtrl);
 
-    function LoginCtrl($scope, $state, loginService) {
+    function LoginCtrl($scope, $state, loginService, statesService) {
 
         $scope.forms = {};
         $scope.user = {};
@@ -27,7 +27,7 @@
         function loginComplete(userInfo){
             console.log('User info', userInfo);
             $scope.user = {};
-            $state.go('dashboard');
+            $state.go(statesService.DASHBOARD);
         }
 
         function loginFail(){

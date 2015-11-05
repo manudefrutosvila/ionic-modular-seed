@@ -8,9 +8,9 @@
     function statesService() {
 
         var service = {
-            INTRO   : 'intro',
-            LOGIN   : 'login',
-            HOME    : 'home'
+            INTRO       : 'intro',
+            LOGIN       : 'login',
+            DASHBOARD   : 'dashboard'
         };
 
         return service;
