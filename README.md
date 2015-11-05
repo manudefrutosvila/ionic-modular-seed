@@ -7,9 +7,9 @@ This project is an application skeleton for a typical development [Ionic Framewo
 
 This seed main features are:
 
-* Ionic starter blank template
 * [AngularJS modularity](https://github.com/johnpapa/ng-demos/tree/master/modular) development guidelines, with the [AngularJS Style Guide](https://github.com/johnpapa/angular-styleguide) by [John Papa](http://www.johnpapa.net).
 * [SMACSS (Scalable and Modular Architecture for CSS)](http://smacss.com) style guide based on the [SMACSS + SCSS starter](https://github.com/jonathanpath/SASS-SMACSS)
+* Ionic starter blank template, with some views to show examples of modularity.
 
 
 ## Main libraries

@@ -1,0 +1,26 @@
+<ion-view hide-back-button="true">
+    <ion-nav-title>Sign-In</ion-nav-title>
+
+    <ion-content>
+        <form name="forms.signinForm" ng-submit="signIn(forms.signinForm)" novalidate>
+            <div class="list">
+                <label class="item item-input">
+                    <span class="input-label">Username</span>
+                    <input ng-model="user.username" type="text">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Password</span>
+                    <input ng-model="user.password" type="password">
+                </label>
+            </div>
+            <div class="padding">
+                <button class="button button-block button-positive" type="submit">
+                    Sign-In
+                </button>
+                <p class="text-center">
+                    <a href="#/forgot-password">Forgot password</a>
+                </p>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>
