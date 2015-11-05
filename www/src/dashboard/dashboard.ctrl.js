@@ -5,6 +5,7 @@
         .module('app.dashboard')
         .controller('DashboardCtrl', DashboardCtrl);
 
-    function DashboardCtrl($scope, dashboardService) {
+    function DashboardCtrl($scope, $ionicNavBarDelegate, dashboardService) {
+        $ionicNavBarDelegate.showBackButton(false);
     }
 })();

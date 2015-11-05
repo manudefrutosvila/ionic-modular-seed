@@ -8,9 +8,12 @@
     function statesService() {
 
         var service = {
-            INTRO       : 'intro',
-            LOGIN       : 'login',
-            DASHBOARD   : 'dashboard'
+            INTRO                   : 'intro',
+            LOGIN                   : 'login',
+            DASHBOARD               : {
+                WEB_TECHNOLOGIES    : 'dashboard.web-technologies',
+                MODULAR             : 'dashboard.modular'
+            }
         };
 
         return service;

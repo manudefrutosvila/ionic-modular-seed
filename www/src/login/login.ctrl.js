@@ -27,7 +27,7 @@
         function loginComplete(userInfo){
             console.log('User info', userInfo);
             $scope.user = {};
-            $state.go(statesService.DASHBOARD);
+            $state.go(statesService.DASHBOARD.WEB_TECHNOLOGIES);
         }
 
         function loginFail(){
